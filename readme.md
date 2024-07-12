@@ -24,3 +24,12 @@ Sprinkles Bakery is a charming bakery located in Colombo, specializing in a wide
 - **View Cupcakes**: Browse cupcakes based on categories.
 - **Order Cupcakes**: Place orders for cupcakes.
 - **View Orders**: View past orders.
+
+- ## Tech Stack
+
+- **Frontend**: Java
+- **IDE**: Android Studio
+- **Backend**: Firebase
+  - Authentication
+  - Firestore Database
+  - Firebase Storage
