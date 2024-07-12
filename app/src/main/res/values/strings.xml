@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">userReg</string>
+    <string name="register">Register</string>
+    <string name="email">E-mail</string>
+    <string name="Password">Password\n</string>
+    <string name="click_to_login">Click here to log in</string>
+    <string name="Login">Login\n</string>
+    <string name="login">Login\n</string>
+    <string name="click_to_register">Click here to Register\n</string>
+    <string name="logout">Logout\n</string>
+    <string name="hello_administration">Hello administration</string>
+    <string name="sprinkles_bakery">Sprinkles Bakery</string>
+    <string name="sprinkles_bakery_Home">Sprinkles Bakery</string>
+    <string name="warmly_welcome">Warmly Welcome</string>
+    <string name="logi">"login Here "</string>
+    <string name="search">Search</string>
+</resources>

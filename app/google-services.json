@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "595102026030",
+    "firebase_url": "https://sprinkles-b0923-default-rtdb.firebaseio.com",
+    "project_id": "sprinkles-b0923",
+    "storage_bucket": "sprinkles-b0923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595102026030:android:fa4d0e79956b935f3812bf",
+        "android_client_info": {
+          "package_name": "com.myapp.userreg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDskU7AivgGkDBH6voaTIe2UA29xlYbQaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel"
+    android:background="@drawable/woo">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="336dp"
+        android:layout_y="502dp"
+        android:clickable="true"
+        app:backgroundTint="#D50446"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rv"
+        app:layout_constraintVertical_bias="0.931"
+        app:srcCompat="@drawable/add_new" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="146dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:layout_x="2dp"
+        android:layout_y="10dp"
+        android:text="Admin"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginVertical="10dp"
+        android:layout_x="281dp"
+        android:layout_y="29dp"
+        android:background="@drawable/bg_btn_1"
+        android:gravity="center"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

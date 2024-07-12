@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pagead"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Update Details"
+        android:background="@color/purple"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtFlavor"
+
+        android:hint="Add a Flavour"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtPrice"
+        android:hint="Enter the Price"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/txtLocation"
+        android:hint="Enter the Location"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+    <EditText
+        android:id="@+id/txtImgurl"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="Add An Image URL"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Update"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="21dp"
+        android:textAllCaps="false"
+        android:id="@+id/btnUpdate"
+        android:backgroundTint="@color/red"
+        android:background="@drawable/rounded"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
